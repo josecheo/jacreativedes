@@ -3854,7 +3854,10 @@ input[type="button"].btn-block {
 .card-header-pills {
   margin-right: -0.625rem;
   margin-left: -0.625rem; }
-
+  .ss {
+    position: relative;
+    z-index: -1000;
+  }
 .card-img-overlay {
   position: absolute;
   top: 0;
