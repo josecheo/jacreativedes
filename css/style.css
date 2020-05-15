@@ -3780,6 +3780,7 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -3850,7 +3851,10 @@ input[type="button"].btn-block {
   margin-bottom: -0.75rem;
   margin-left: -0.625rem;
   border-bottom: 0; }
-
+  .ss { 
+    position: relative;
+    z-index: -1000;
+  }
 .card-header-pills {
   margin-right: -0.625rem;
   margin-left: -0.625rem; }
