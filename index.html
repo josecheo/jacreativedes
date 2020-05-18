@@ -380,17 +380,16 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-12 center order-md-last">
-
 						
-            <form action="https://nodejsmail.herokuapp.com/send-email" method="post" enctype="text/plain class="bg-light p-5 contact-form">
+            <form action="https://node-js-send-email.herokuapp.com/send-email" method="post" enctype="text/plain class="bg-light p-5 contact-form">
               <div class="form-group">
-                <input name="name" type="text" class="form-control" placeholder="¿Como te llamas?">
+                <input name="name" type="text" class="form-control" required placeholder="¿Como te llamas?">
               </div>
               <div class="form-group">
-                <input name="phone" type="text" class="form-control" placeholder="Tú número de télefono">
+                <input name="phone" type="tel"  pattern="[0-9]{9}"  class="form-control" required placeholder="Tú número de télefono">
               </div>
               <div class="form-group">
-                <input name="email" type="text" class="form-control" placeholder="Correo Electronico">
+                <input name="email" type="email" class="form-control" required  placeholder="Correo Electronico">
               </div>
               <div class="form-group">
                 <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="¿Qué información necesitas?"></textarea>
